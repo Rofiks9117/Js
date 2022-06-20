@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<style>
+		input {
+			width: 200px;
+		}
+	</style>
+	<script>
+		function go(elem){
+			elem.disabled = true;
+			elem.style.cursor = 'not-allowed';
+		}
+	</script>
+</head>
+<body>
+	<input type="submit" onclick="go(this)" value="Нажми на меня!">
+</body>
+</html>
